@@ -55,6 +55,10 @@
             cursor: pointer;
             margin-top: 20px;
         }
+        p{
+        text-align: center;
+        padding: 2px;
+        }
 
     </style>
 </head>
@@ -66,6 +70,9 @@
         <label for="password">Password</label>
         <input type="password" id="password" name="password" placeholder="••••••••" required><br><br>
         <button type="submit" onclick="window.location.href='dashboard/user-dashboard.html'">Login</button>
+        <div class="login-link">
+        <p>Already have an account? <a href="login.html" target="_blank">Login</a></p>
+    </div>
     </form>
     <footer>
         &copy; 2024 Flash Card AI Maker. All rights reserved.
