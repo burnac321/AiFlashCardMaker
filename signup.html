@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Create an account</title>
+
+<style>
+    * {
+        box-sizing: border-box;
+        font-family: Arial, sans-serif;
+    }
+
+    body {
+        margin: 0;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: white;
+    }
+
+    form {
+        background: #fff;
+        padding: 30px;
+        width: 350px;
+        border-radius: 12px;
+        box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+    }
+
+    h1 {
+        text-align: center;
+        font-size: 20px;
+        margin-bottom: 20px;
+        color: #333;
+    }
+
+    label {
+        display: block;
+        margin-top: 12px;
+        font-weight: bold;
+        color: #444;
+        font-size: 14px;
+    }
+
+    input {
+        width: 100%;
+        padding: 10px;
+        margin-top: 5px;
+        border-radius: 6px;
+        border: 1px solid #ccc;
+        outline: none;
+        transition: 0.3s;
+    }
+
+    input:focus:invalid {
+        border-color: red;
+    }
+
+    input:focus:valid {
+        border-color: #00c9a7;
+    }
+
+    input[type="submit"] {
+        margin-top: 20px;
+        background: #00c9a7;
+        color: white;
+        border: none;
+        font-weight: bold;
+        cursor: pointer;
+    }
+
+    input[type="submit"]:hover {
+        background: #009e82;
+    }
+
+    .login-link {
+        text-align: center;
+        margin-top: 15px;
+        font-size: 14px;
+    }
+
+    .login-link a {
+        color: #00c9a7;
+        text-decoration: none;
+        font-weight: bold;
+    }
+</style>
+</head>
+
+<body>
+<!-- This is the sign-up form -->
+<form name="signupForm">
+    <h1>Create an account<br>to use <b>Flash Card AI Maker</b></h1>
+
+    <label>Full Name</label>
+    <input 
+        type="text" 
+        name="userNames" 
+        placeholder="IRAKOZE Arsene"
+        required
+        minlength="3"
+        title="Enter at least 3 characters"
+    >
+
+    <label>Phone Number</label>
+    <input 
+        type="tel" 
+        name="userPhoneNumber" 
+        placeholder="078XXXXXXXX"
+        title="Enter a valid Rwanda number (e.g. 0781234567)"
+        required
+    >
+
+    <label>Email</label>
+    <input 
+        type="email" 
+        name="userEmail" 
+        placeholder="email@gmail.com"
+        required
+    >
+
+    <label>Password</label>
+    <input 
+        type="password" 
+        name="userPassword"
+        placeholder="***********"
+        required
+        minlength="6"
+        title="At least 6 characters, including a letter and a number"
+    >
+
+    <label>Confirm Password</label>
+    <input 
+        type="password" 
+        name="confirmPassword"
+        placeholder="********"
+        required
+        minlength="6"
+    >
+
+    <input type="submit" value="Create Account">
+
+    <div class="login-link">
+        <p>Already have an account? <a href="/login.html" target="_blank">Login</a></p>
+    </div>
+</form>
+
+</body>
+</html>

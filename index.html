@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Flash Cards AI Maker</title>
+<style>
+    
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+    }
+    
+    iframe {
+        border: none;
+        width: 100%;
+        height: auto;
+    }
+    
+
+    body {
+        background-color: white;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    header {
+        text-align: center;
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+    }
+    header nav {
+        margin-top: 20px;
+    }
+
+    header h1 {
+        font-size: 50px;
+        margin-bottom: 10px;
+        letter-spacing: 1px;
+        font-family: 'Times New Roman', Times, serif;
+        color: rgb(129, 15, 145);
+    }
+
+    header p {
+        margin-bottom: 25px;
+        color: #f0f0f0;
+        font-size: 16px;
+        font-family: 'Times New Roman', Times, serif;
+        color:rgb(129, 15, 145);
+    }
+
+    header a {
+        display: center;
+        width: fit-content;
+        height: fit-content;
+        margin: 0 10px;
+        padding: 10px 20px;
+        background-color: #00a88f;
+        color: white;
+        border-radius: 6px;
+        text-decoration: none;
+        font-weight: bold;
+        transition: 0.3s;
+    }
+
+    header a:hover {
+        background: aquamarine;
+        color: white;
+    }
+
+    .cardsBox {
+        width: 85%;
+        max-width: 1000px;
+        display: flex;
+        gap: 20px;
+        margin: 50px 0;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .card {
+        background: white;
+        border-radius: 15px;
+        border: 3px solid green;
+        padding: 20px;
+        width: 280px;
+        box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+        transition: transform 0.3s;
+    }
+
+    .card h2 {
+        color: #00a88f;
+        margin-bottom: 10px;
+    }
+
+    .card p {
+        color: #333;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 14px;
+        line-height: 1.6;
+    }
+
+    .heading img {
+                width: 100px;
+                height: 100px;
+                margin-bottom: 20px;
+                border-radius: 60px;
+            }
+
+</style>
+</head>
+<body>
+    <header>
+        <div class="heading">
+            <img src="https://png.pngtree.com/png-vector/20230504/ourlarge/pngtree-flash-card-flat-icon-vector-png-image_7084651.png" alt="logo">
+            <h1>FLASH CARDS AI MAKER</h1>
+        </div>
+        <p>Learn smarter, faster, and more effectively with AI-powered flashcards</p>
+        <div class="nav-links">
+            <a href="/login.html" target="_blank">Login</a>
+            <a href="/signup.html" target="_blank">Register</a>
+            <a href="/about.html" target="_blank">About</a>
+            <a href="/how_it_works.html" target="_blank">How it works</a>
+        </div>
+    </header>
+    <div class="cardsBox">
+
+    <div class="card">
+        <h2>What is Flash Cards AI Maker?</h2>
+        <hr>
+        <p>
+            Flash Cards AI Maker is a smart learning platform that helps you 
+            create flashcards instantly using artificial intelligence. 
+            Instead of spending hours writing notes, the system generates 
+            questions and answers for you in seconds.
+        </p>
+        <img src="https://tse1.mm.bing.net/th/id/OIP.rk6RWLNqcdcHNI2nSu6sHAHaHa?rs=1&pid=ImgDetMain&o=7&rm=3" alt="flash cards sample" width="250" height="150">
+    </div>
+
+    <div class="card">
+        <h2>Who this tool is made for?</h2>
+        <p>
+            This tool is perfect for students, teachers, and lifelong learners. 
+            Whether you're preparing for exams, teaching a class, or learning 
+            something new, our platform simplifies the process.
+        </p>
+        <img src="https://th.bing.com/th/id/OIP.m30gijmv74GT50KBXAqCnwHaE8?o=7rm=3&rs=1&pid=ImgDetMain&o=7&rm=3" alt="students learning" width="250" height="150">
+    </div>
+
+    <div class="card">
+        <h2>How does this tool works</h2>
+        <hr>
+        <p>
+            Simply enter your notes or topic, and the AI automatically converts 
+            them into structured flashcards. You can review, edit, and study 
+            them anytime, anywhere.
+        </p>
+        <img src="https://static.vecteezy.com/system/resources/previews/011/602/811/non_2x/how-it-works-text-button-how-it-works-sign-speech-bubble-web-banner-label-template-illustration-vector.jpg" alt="how it works" width="250" height="150">
+    </div>
+
+    <div class="card">
+        <h2>Why choose us?</h2>
+        <hr>
+        <p>
+            Save time, stay organized, and improve memory retention. 
+            Our AI helps you focus on learning instead of formatting content, 
+            making your study sessions more productive.
+        </p>
+        <img src="https://pcaedu.in/wp-content/uploads/2019/09/why-us-800x400.jpg" alt="why choose us" width="250" height="150">
+    </div>
+
+    <div class="card">
+        <h2>Key Features of this tool</h2>
+        <hr>
+        <p>
+            • Instant flashcard generation<br>
+            • Smart question suggestions<br>
+            • Easy editing and organization<br>
+            • Accessible on any device
+        </p>
+        <img src="https://tse3.mm.bing.net/th/id/OIP.V9-1H0XhLNr-RSha22fA_QHaEK?w=996&h=560&rs=1&pid=ImgDetMain&o=7&rm=3" alt="key features" width="250" height="150">
+    </div>
+
+    <div class="card">
+        <h2>Start Learning Today</h2>
+        <hr>
+        <p>
+            Join now and transform the way you study. 
+            Create your first AI-powered flashcard set and 
+            experience faster learning like never before.
+        </p>
+        <img src="https://thumbs.dreamstime.com/b/start-learning-today-blue-background-start-learning-today-blue-225882594.jpg" alt="start learning" width="250" height="150">
+    </div>
+    </div>
+<footer>
+    &copy; 2024 Flash Card AI Maker. All rights reserved.
+</footer>
+</body>
+</html>
