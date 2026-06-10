@@ -1,0 +1,47 @@
+        h1{
+            text-align: center;
+            margin-top: 50px;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: left;
+            margin-top: 30px;
+            background: white;
+            padding: 30px;
+            width: 300px;
+            height: auto;
+            border-radius: 12px;
+            border: 2px solid #00a88f;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+        }
+
+        label {
+        display: block;
+        margin-top: 12px;
+        font-weight: bold;
+        color: #444;
+        font-size: 14px;
+        } 
+        input[type="text"], input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            margin-top: 8px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        button {
+            background-color: #00a88f;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+        p{
+        text-align: center;
+        padding: 2px;
+        }

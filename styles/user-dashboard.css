@@ -1,0 +1,19 @@
+h1{
+        font-size: 36px;
+        color: #333;
+        margin-bottom: 20px;
+    }
+    p {
+        font-size: 18px;
+        color: #666;
+        margin-bottom: 30px;
+    }
+    nav a {
+        display: inline-block;
+        margin: 0 15px;
+        padding: 10px 20px;
+        background-color: #007BFF;
+        color: white;
+        text-decoration: none;
+        border-radius: 5px;
+    }

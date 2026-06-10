@@ -1,0 +1,112 @@
+            header{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+            }
+            header h1{
+                font-size: 36px;
+                margin: 40px 0 20px;
+                color: rgb(129, 15, 145);
+            }
+            section{
+                margin: 40px auto;
+                padding: 0 20px;
+                line-height: 1.6;
+                border: aqua solid 6px;
+                color: #333;
+                border-radius: 50px;
+            }
+            div img {
+                display: block;
+                margin: 0 auto 20px;
+            }
+            section p{
+                margin: 20px 0;
+                padding: 15px;
+            }
+            section p {
+                max-width: 600px;
+                text-align: left;
+                font-family:'Times New Roman', Times, serif;
+                font-size: 18px;
+            }
+            footer {
+                margin: 40px 0;
+                color: #777;
+                font-size: 14px;
+            }
+            header a {
+                display: inline-block;
+                margin: 5px;
+                padding: 10px 20px;
+                background: white;
+                color: #00a88f;
+                border-radius: 6px;
+                text-decoration: none;
+                font-weight: bold;
+                transition: 0.3s;
+            }
+            .nav-links {
+                display: flex;
+                gap: 10px;
+            }
+            header a:hover {
+                background: aquamarine;
+                color: white;
+            }
+            header .heading {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+            .heading img {
+                width: 100px;
+                height: 100px;
+                margin-bottom: 20px;
+                border-radius: 60px;
+            }
+            section img {
+                width: 150px;
+                height: 150px;
+                border-radius: 50%;
+                border: 3px solid #00a88f;
+            }
+            section img:hover {
+                border-color: #007a6b;
+            }
+            section p {
+                 margin: 20px 0;
+                 padding: 15px;
+             }
+             .about-content {
+                 background: #fff;
+                 padding: 30px;
+                 border-radius: 12px;
+                 box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+                 display: flex;
+                 flex-direction: column;
+                 align-items: center;
+             }
+             section p {
+                 max-width: 600px;
+                 text-align: left;
+                 font-family:'Times New Roman', Times, serif;
+                 font-size: 18px;
+             }
+             footer {
+                 margin: 40px 0;
+                 color: #777;
+                 font-size: 14px;
+             }
+                header a {
+                    display: inline-block;
+                    margin: 5px;
+                    padding: 10px 20px;
+                    background: white;
+                    color: #00a88f;
+                    border-radius: 6px;
+                    text-decoration: none;
+                    font-weight: bold;
+                    transition: 0.3s;
+                }
