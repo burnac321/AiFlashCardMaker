@@ -1,0 +1,156 @@
+/* index.css – same clean styling, no changes needed */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #f4f7fc;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.container {
+    max-width: 1100px;
+    width: 100%;
+    background: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.08);
+    padding: 30px 35px 40px;
+    transition: 0.3s;
+}
+
+header h1 {
+    font-weight: 600;
+    font-size: 28px;
+    color: #1a2634;
+    letter-spacing: -0.5px;
+}
+
+header p {
+    color: #6b7a8d;
+    font-size: 15px;
+    margin-top: 4px;
+}
+
+.table-wrapper {
+    overflow-x: auto;
+    border-radius: 14px;
+    border: 1px solid #e9edf2;
+    margin-top: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 14px;
+    min-width: 580px;
+}
+
+thead {
+    background: #f8faff;
+    border-bottom: 2px solid #e9edf2;
+}
+
+th {
+    text-align: left;
+    padding: 16px 18px;
+    font-weight: 600;
+    color: #2c3e50;
+    letter-spacing: 0.3px;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+
+td {
+    padding: 14px 18px;
+    border-bottom: 1px solid #f0f2f5;
+    color: #1e2a36;
+}
+
+tbody tr:hover {
+    background: #f8fbff;
+}
+
+tbody tr:last-child td {
+    border-bottom: none;
+}
+
+td.tax-positive {
+    color: #c0392b;
+    font-weight: 600;
+}
+
+td.tax-zero {
+    color: #27ae60;
+    font-weight: 500;
+}
+
+.summary {
+    margin-top: 22px;
+    padding: 16px 20px;
+    background: #f8fbff;
+    border-radius: 14px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 28px;
+    font-size: 14px;
+    color: #2c3e50;
+    border: 1px solid #e9edf2;
+}
+
+.summary span {
+    font-weight: 600;
+    color: #1a2634;
+}
+
+.summary .stat {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.summary .stat .label {
+    color: #6b7a8d;
+    font-weight: 400;
+}
+
+.empty-state {
+    text-align: center;
+    padding: 50px 20px;
+    color: #9aa8b9;
+}
+
+.empty-state .icon {
+    font-size: 44px;
+    margin-bottom: 10px;
+}
+
+.empty-state p {
+    font-size: 16px;
+}
+
+@media (max-width: 700px) {
+    .container {
+        padding: 20px 16px;
+    }
+    header h1 {
+        font-size: 22px;
+    }
+    th,
+    td {
+        padding: 12px 12px;
+        font-size: 13px;
+    }
+    .summary {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
