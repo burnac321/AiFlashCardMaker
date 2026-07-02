@@ -1,0 +1,19 @@
+<html>
+    <body>
+        <h2 id="cardisplay"></h2>
+    </body>
+    <script>
+        const card = document.getElementById("cardisplay");
+        var x;
+        var datess = new Date();
+        var mycars = new Array();
+        x = parseInt(prompt("Enter the number of cars?"));
+        for(i = 0; i < x; i++){
+            mycars[i] = prompt(`Enter your ${i+1} car name: `);
+        }
+        for(x in mycars){
+            card.innerHTML = `${mycars[x]}`
+        }
+        document.write(datess);
+    </script>
+</html>
