@@ -55,6 +55,8 @@ This platform is designed for:
 - `signup.html` – User registration page
 - `about.html` – Information about the platform
 - `how_it_works.html` – Explanation of the system process
+- `admin-dashboard.html` - The panel for admin to help him to configure some system setting
+- `user-dashboard.html` - The panel for the users to help him to access his latest created flashcards and also being able to create new ones and accessing other settings.
 
 ---
 
